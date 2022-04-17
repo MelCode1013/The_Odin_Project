@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* above is to reset all css*/
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+}
+
+header img {
+  width: 400px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #f9faf8;
+  line-height: 1.2;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  gap: 5px;
+}
+
+.intro-text p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.intro-text button {
+  max-width: 100px;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main-image {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  flex-shrink: 0;
+  border: none;
+}
+
+.top-section {
+  padding: 0 100px;
+  background-color: #1f2937;
+}
+/* below here is the second section */
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.middle {
+  padding: 100px 300px;
+}
+
+section img {
+  width: 200px;
+  height: 160px;
+  border: solid 5px #3882f6;
+  border-radius: 10px;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.img-middle-text {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.middle p {
+  font-size: 12px;
+  width: 180px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* Below is the last section before the footer -- the review */
+
+figure {
+  background-color: #e5e7eb;
+  padding: 150px;
+  text-align: center;
+}
+
+blockquote,
+figcaption {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  line-height: 1.3;
+}
+
+figcaption {
+  font-size: 20px;
+}
+
+/* below is the last section */
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  margin: 150px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+}
+
+.last-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.last-section button {
+  background-color: #3882f6;
+  border: solid 1px white;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.last-text p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* below is the footer section */
+
+footer {
+  background-color: #1f2937;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
